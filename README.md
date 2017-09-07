@@ -18,6 +18,13 @@ A framework for keeping text mining up-to-date. Many text mining tools and resul
 - Hackathon project: https://github.com/NCBI-Hackathons/PubRunner
 - New Python package: https://github.com/jakelever/pubrunner
 
+#### AutoDenovo
+
+Pipeline for finding denovo mutations related to neurodevelopmental disorders using family study designs, similar to pipelines previously developed for cancer research. It combines different types of variants by multiple callers, and uses both chip and exome sequencing data. The end goal is to compare annotated variants to public databases (dbVar, ClinVar), possibly indicating further sequencing or mechanistic avenues.
+
+- Project page: https://github.com/gsudre/autodenovo
+
+
 ## Training Objectives for the Visiting Bioinformatician Program
 
 ### Bioinformatics
