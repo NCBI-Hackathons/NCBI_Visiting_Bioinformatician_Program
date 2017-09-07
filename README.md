@@ -9,6 +9,15 @@ Example:  Celeste S:  https://www.youtube.com/watch?v=fC9rYghqUTo&feature=youtu.
 Another Example:  Sean L https://github.com/ncbi-hackathons/snphancers (solo), https://github.com/NCBI-Hackathons/PSST (collab with Chipo M, Anmol V, Alex G, Devante T and others)
 ```
 
+### PubRunner
+
+A framework for keeping text mining up-to-date. Many text mining tools and results become stale because they aren't updated with the latest publications. This framework manages the download of required corpora (e.g. PubMed), execution of tools, uploading results to somewhere public and updating the status of the tool on the PubRunner website. The VB program is being used to productize PubRunner and create a flexible and easy-to-use Python package.
+
+Website: http://pubrunner.org/
+F1000 paper: https://f1000research.com/articles/6-612/v1
+Hackathon project: https://github.com/NCBI-Hackathons/PubRunner
+New Python package: https://github.com/jakelever/pubrunner
+
 ## Training Objectives for the Visiting Bioinformatician Program
 
 ### Bioinformatics
