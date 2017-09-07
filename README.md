@@ -3,9 +3,11 @@ Postdocs and Graduate Students Visit NCBI for 4 to 6 weeks for Training in Bioin
 
 ## Project Highlights
 
-```VBs will place links to their repos and other product deliverables here 
+```
+VBs will place links to their repos and other product deliverables here 
 Example:  Celeste S:  https://www.youtube.com/watch?v=fC9rYghqUTo&feature=youtu.be
-Another Example:  Sean L https://github.com/ncbi-hackathons/snphancers (solo), https://github.com/NCBI-Hackathons/PSST (collab with Chipo M, Anmol V, Alex G, Devante T and others)```
+Another Example:  Sean L https://github.com/ncbi-hackathons/snphancers (solo), https://github.com/NCBI-Hackathons/PSST (collab with Chipo M, Anmol V, Alex G, Devante T and others)
+```
 
 ## Training Objectives for the Visiting Bioinformatician Program
 
