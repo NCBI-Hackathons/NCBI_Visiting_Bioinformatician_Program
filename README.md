@@ -28,7 +28,7 @@ Pipeline for finding denovo mutations related to neurodevelopmental disorders us
 Pipeline that identifies multiple SNPs that are associated with diseases or disease phenotypes. This pipeline identifies
 asserted pathogenic SNPs. in addition, the pipeline uses SNPs identified in Genome-wide Association Studies (GWAS), crossed with databases such as ClinVar and dbSNP to construct a report describing multiple genetic variants associated with diseases.
 
-![Workflow](psst.png?raw=true "Workflow.png")
+![Workflow](/psst.png?raw=true "Workflow.png")
 
 - Project page: https://github.com/NCBI-Hackathons/PSST
 
