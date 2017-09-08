@@ -38,7 +38,7 @@ asserted pathogenic SNPs. in addition, the pipeline uses SNPs identified in Geno
 ### Computational Biology
   Statistical methods and data visualization are also explored 
 ### Data Science
-  Visitors improve their skills in data streaming, data management, statisticalstatistical analysis and visualization.  
+  Visitors improve their skills in data streaming, data management, statistical analysis and visualization.  
 ### Project Management
   Typically, visitors are put in charge of a team of bioinformaticians during the last week of their stay at NCBI.  
 ### Product Management
