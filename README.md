@@ -26,6 +26,10 @@ asserted pathogenic SNPs. in addition, the pipeline uses SNPs identified in Geno
 
 ![Workflow](/images/smallPSST.png?raw=true "PSST.png")
 
+#### VirusFrankenstein
+
+An agglomeration of hackathon-virus seach strategies for discovering new viruses from metaviromic and metagenomic data.  
+
 ## Current projects
 
 #### PubRunner
