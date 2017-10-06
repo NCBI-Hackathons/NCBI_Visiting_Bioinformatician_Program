@@ -1,0 +1,68 @@
+##SSX Revision, will update beginning to fit python scripting
+Part 1: Get SNP numbers with MAF 0.01 to 0.5 (somatic mutation for ethnic (caucasian) genetic variation snps)
+
+Use a preselected list of SNPs and PSST to create fasta file with SNPs
+
+To Generate the List of SNPs:
+  A.) Download the FLAT file of the gene of interest, put it into excel.
+  B.) In the excel column next to the data, type:
+       
+       =FIND("|",A1,1)
+        
+      drag it all the way down to the end of the last SNP, you should see:
+      
+      The length number of the characters it takes to get to |
+      
+  C.) On the column next to the length value, type:
+  
+      =LEFT('flat CHRPOS'!A1,'flat CHRPOS'!B1-2)
+  drag it all the way down to the end of the last SNP, you should see:
+      
+      The rs and ss ## given
+      
+  D.)  On the column next to the rs and ss#, type:
+  
+  =IFERROR(FIND("rs",C1,1),0)
+  
+  This will return a value of "1" if the code detects an rs# and "0" if not.
+  
+  E.)  Next column over, type:
+  
+  =C1 at the top
+  and
+  =IF(D2=0,E1,C2) at the bottom, drag this code to last SNP
+  to ensure that all the ss#s that correspond to rs# are changed to the respective rs#s
+  
+  F.)  Next Three Columns are as follows in this order:
+  
+  =FIND("chr-pos",A1,1)
+  =FIND("|",A1,F1)
+  =MID(A1,F1+8,G1-F1-9)
+  
+  G.)  Copy 
+  =E1 and =H1 to new columns and drag them down to the last SNP
+  
+  H.) Organize:
+  Copy the =E1 and =H1 columns to a new sheet, sort by column B from Z to A.  Sort again by column A
+  finish by removing duplicates:
+      
+      Type 1 in column next to SNPs, 
+      Type =IF(B2=B1,0,1)
+  Drag this code down to last SNP
+  Copy resulting values onto next column, delete original results from previous column
+  Sort by descending values ( 1 to 0) where 1s are SNPs and 0s are duplicates
+  
+  Copy the remaining SNPs onto a txt file and save it for the next few steps.
+  
+  Part 2: Get flanking seq and FASTA files
+  Download PSST to linux
+  
+  perform the following commands in linux:
+  
+  python get_var_flanks.py -i snp_accessions.txt -e [your email] -o snp_flanks.txt  .   #to get flanking seqs
+  
+  
+  python var_flanks_to_fasta.py -i snp_flanks.txt -o snp_flanks.fasta  #to get fasta file
+  
+  Part 3.
+  Find and replace SNP letters (ex [A/C]) with NCBI designated letter (ex: D)
