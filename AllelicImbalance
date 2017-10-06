@@ -1,0 +1,21 @@
+##Allelic Imbalance for GSE47718, based on Gadin et al 2015
+
+download hg19 chromosome data from http://hgdownload.cse.ucsc.edu/goldenpath/hg19/chromosomes/
+concatenate chr1-22 and X
+
+hisat2-build hg19.genoma.fa hg19  #to build genome index
+
+ls *.sra | xargs -I {} -P 5 -n 1 path/to/fastq/dump --split-3 {} #to generate all fastq files from sra
+
+hisat2 -x /path/to/hg19/indexes -1 sample_1.fq.gz -2 sample_2.fq.gz | samtools view -Sbo sample.bam - #fastq to bam
+
+/path/to/samtools/ sort yourfile.bam -o yourfile.sorted.bam  #to sort bam file, will update with a version of code that loops all bam files
+
+ls *.sorted.bam | xargs -n1 -P5 /usr/local/samtools/1.3.1/bin/samtools index #index multiple sorted bam files
+
+#get vcf file (will continue working on parallelizing it), use --BCF and fasta-ref to get .bcf
+/path/to/samtools mpileup -u -f /path/to/hg19.genome.fa *.bam | /usr/local/samtools/1.3.1/bin/samtools bgzip > file.vcf.gz
+
+##After generation of VCF and BCF files, follow Gadin et al 2015, test SNPs of interest for allelicimbalance
+
+
