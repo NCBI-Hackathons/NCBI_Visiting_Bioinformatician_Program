@@ -37,6 +37,14 @@ An agglomeration of hackathon-virus seach strategies for discovering new viruses
 There has now been more than ten years, and thousands of publications referencing GWAS (and other) studies, which resulted in the discovery of hunderds of thousands of single nucleotide polymorphisms. Taking advantage of this existing (and growing) knowledge generated in the lab, Complex Pheno/Geno restricts the genome space to be used in predictive models for the disease, potentially lowering the costs of personilized medicine. At the same time it explores the involvement or rsIDs that have been linked together in the literature, exploring the role of interacting pathways in an agnostic way. Moreover, it models the observed pathology taking into consideration the various diagnostic measurements without the need for binary diagnostic outcomes. Finally it incorporates data on known environmental modulators to further refine the modelling process. The outcome of Complex Pheno/Geno is the fine-grain categorization of patients within a cohort.
 ![Flow diagram](https://github.com/NCBI-Hackathons/Complex_Phenogeno/blob/master/Images/FlowDiagram.jpeg)
 
+
+#### [EndoVir](https://github.com/NCBI-Hackathons/EndoVir) 
+
+A implementation of [ViruSpy](https://github.com/NCBI-Hackathons/ViruSpy)  in modern Python (3.6) to facilitate on-the-fly adjustments of pipeline parameters and integration of different external tools.   
+
+Endogenous Viral Elements (EVEs) are part of the host genome and allow horizontal transmission within a host but the underlying evolutionary mechanisms are still unclear. Currently, virology is entering a ‘discovery phrase’ due to new and cheaper sequencing technologies which result in a deluge of metagenomic data from a wide range of organisms. These sequence data provide information on the organisms of interest as well as contain a record of all the expressed microbial parasites that infect that host, including viruses. This makes such data set especially valuable for the analysis of EVEs.
+
+
 #### PubRunner
 
 A framework for keeping text mining up-to-date. Many text mining tools and results become stale because they aren't updated with the latest publications. This framework manages the download of required corpora (e.g. PubMed), execution of tools, uploading results to somewhere public and updating the status of the tool on the PubRunner website. The VB program is being used to productize PubRunner and create a flexible and easy-to-use Python package.
