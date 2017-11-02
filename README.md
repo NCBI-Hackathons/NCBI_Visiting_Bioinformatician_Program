@@ -32,6 +32,11 @@ An agglomeration of hackathon-virus seach strategies for discovering new viruses
 
 ## Current projects
 
+#### [Complex Pheno/Geno](https://github.com/NCBI-Hackathons/Complex_Phenogeno)
+
+There has now been more than ten years, and thousands of publications referencing GWAS (and other) studies, which resulted in the discovery of hunderds of thousands of single nucleotide polymorphisms (identified through unique [rsIDs](https://www.ncbi.nlm.nih.gov/books/NBK174586/)). Taking advantage of this existing (and growing) knowledge generated in the lab, Complex Pheno/Geno restricts the genome space to be used in predictive models for the disease, potentially lowering the costs of personilized medicine. At the same time it explores the involvement or rsIDs that have been linked together in the literature, exploring the role of interacting pathways in an agnostic way. Moreover, it models the observed pathology taking into consideration the various diagnostic measurements without the need for binary diagnostic outcomes. Finaly it incorporates data on known environmental modulators to further refine the modelling process. The outcome of Complex Pheno/Geno is the fine-grain categorization of patients within a cohort.
+![Flow diagram](https://github.com/NCBI-Hackathons/Complex_Phenogeno/blob/master/Images/FlowDiagram.jpeg)
+
 #### PubRunner
 
 A framework for keeping text mining up-to-date. Many text mining tools and results become stale because they aren't updated with the latest publications. This framework manages the download of required corpora (e.g. PubMed), execution of tools, uploading results to somewhere public and updating the status of the tool on the PubRunner website. The VB program is being used to productize PubRunner and create a flexible and easy-to-use Python package.
