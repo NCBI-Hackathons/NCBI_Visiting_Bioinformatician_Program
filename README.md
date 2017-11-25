@@ -60,12 +60,12 @@ Pipeline for finding denovo mutations related to neurodevelopmental disorders us
 
 - Project page: https://github.com/gsudre/autodenovo
 
-#### [ExpCatalyst](https://github.com/NCBI-Hackathons/ExpCatalyst)
+#### [LabPype](https://github.com/NCBI-Hackathons/LabPype)
 
-ExpCatalyst provides a solution for rapid development of pipeline and workflow management software. A visualized pipeline software provides features such as reusability of workflows, user-friendly interface, and highly integrated functionalities. ExpCatalyst accelerates the making of such software for developers. It also helps the scientists become the developers to meet their increasing and diverging needs.
+LabPype provides a solution for rapid development of pipeline and workflow management software. A visualized pipeline software provides features such as reusability of workflows, user-friendly interface, and highly integrated functionalities. LabPype accelerates the making of such software for developers. It also helps the scientists become the developers to meet their increasing and diverging needs.
 
-- Project page: https://github.com/NCBI-Hackathons/ExpCatalyst
-- Demo: https://ncbi-hackathons.github.io/ExpCatalyst/
+- Project page: https://github.com/NCBI-Hackathons/LabPype
+- Demo: https://ncbi-hackathons.github.io/LabPype/
 
 ## Former Projects and Past Participants
 
