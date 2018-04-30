@@ -37,13 +37,22 @@ An agglomeration of hackathon-virus seach strategies for discovering new viruses
 There has now been more than ten years, and thousands of publications referencing GWAS (and other) studies, which resulted in the discovery of hunderds of thousands of single nucleotide polymorphisms. Taking advantage of this existing (and growing) knowledge generated in the lab, Complex Pheno/Geno restricts the genome space to be used in predictive models for the disease, potentially lowering the costs of personilized medicine. At the same time it explores the involvement or rsIDs that have been linked together in the literature, exploring the role of interacting pathways in an agnostic way. Moreover, it models the observed pathology taking into consideration the various diagnostic measurements without the need for binary diagnostic outcomes. Finally it incorporates data on known environmental modulators to further refine the modelling process. The outcome of Complex Pheno/Geno is the fine-grain categorization of patients within a cohort.
 ![Flow diagram](https://github.com/NCBI-Hackathons/Complex_Phenogeno/blob/master/Images/FlowDiagram.jpeg)
 
+#### [Tryptase_Duplication](https://github.com/NCBI-Hackathons/Tryptase_Duplication) 
+
+There are a number of genes within the Tryptase family all of which are closely related. The two main genes within the family are the TPSAB1 and TPSB2 known as alpha and beta respectively.
+There is evidence that duplication of the TPSAB1 gene is linked to certain phenotypic traits. For example susceptibility to infection [1,2,3]
+<br />
+Duplication of the TPSAB1 locus is associated with a number of SNPs at the 5' prime end of the transcript. These SNPs allow the duplicated TPSAB1 and wild-type TPSAB1 to be distinguished from each other.
+<br />
+The Tryptase_Duplication project uses these SNPs to look for expression of the wild-type and duplicated TPSAB1 in publicly available RNA Seq data from the Sequence Read Archive (SRA).
+<br />
+![Flow diagram](https://github.com/NCBI-Hackathons/Tryptase_Duplication/blob/master/analysis/figs/expression_per_group.png)
 
 #### [EndoVir](https://github.com/NCBI-Hackathons/EndoVir) 
 
 A implementation of [ViruSpy](https://github.com/NCBI-Hackathons/ViruSpy)  in modern Python (3.6) to facilitate on-the-fly adjustments of pipeline parameters and integration of different external tools.   
 
 Endogenous Viral Elements (EVEs) are part of the host genome and allow horizontal transmission within a host but the underlying evolutionary mechanisms are still unclear. Currently, virology is entering a ‘discovery phrase’ due to new and cheaper sequencing technologies which result in a deluge of metagenomic data from a wide range of organisms. These sequence data provide information on the organisms of interest as well as contain a record of all the expressed microbial parasites that infect that host, including viruses. This makes such data set especially valuable for the analysis of EVEs.
-
 
 #### PubRunner
 
