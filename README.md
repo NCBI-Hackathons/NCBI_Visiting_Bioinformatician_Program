@@ -57,12 +57,8 @@ Repeats and low complexity sequences in mobile genetic elements, including plasm
 ![Flow diagram](https://github.com/NCBI-Hackathons/Pathogenic_Pangenomes/blob/master/images/got_plasmid.png)
 
 <br />
-- Project page: https://github.com/NCBI-Hackathons/Got_Plasmid
+- Project page: https://github.com/NCBI-Hackathons/Got_Plasmid<br />
 - Demo: https://ncbi-hackathons.github.io/Got_Plasmid/
-
-#### [](https://github.com/NCBI-Hackathons/Got_Plasmid)
-
-<br />
 
 #### [EndoVir](https://github.com/NCBI-Hackathons/EndoVir) 
 
