@@ -82,3 +82,21 @@ LabPype provides a solution for rapid development of pipeline and workflow manag
 VBs will place links to their repos and other product deliverables here 
 Example:  Celeste S:  https://www.youtube.com/watch?v=fC9rYghqUTo&feature=youtu.be
 ```
+
+#### [Got_Plasmid](https://github.com/NCBI-Hackathons/Got_Plasmid)
+
+The goal of Got_Plasmid is to retreive and visualize plasmid sequences from SRA and Next Generation Sequencing (NGS) data.
+<br />
+Repeats and low complexity sequences in mobile genetic elements, including plasmids and phages make their analysis very difficult when using NGS data. Here, we developed a new pipeline combining magiBlast, Circos and Eutils to identify and visualize whole or partial plasmid sequences present within SRA data. The output is in the form of self-explanatory tables or png images generated using Circos modules..
+<br />
+- Project page: https://github.com/NCBI-Hackathons/Got_Plasmid
+- Demo: https://ncbi-hackathons.github.io/Got_Plasmid/
+
+## Former Projects and Past Participants
+
+```
+VBs will place links to their repos and other product deliverables here 
+Example:  Celeste S:  https://www.youtube.com/watch?v=fC9rYghqUTo&feature=youtu.be
+```
+<br />
+![Flow diagram](https://github.com/NCBI-Hackathons/Pathogenic_Pangenomes/blob/master/images/got_plasmid.png)
