@@ -48,6 +48,22 @@ The Tryptase_Duplication project uses these SNPs to look for expression of the w
 <br />
 ![Flow diagram](https://github.com/NCBI-Hackathons/Tryptase_Duplication/blob/master/analysis/figs/expression_per_group.png)
 
+#### [Got_Plasmid](https://github.com/NCBI-Hackathons/Got_Plasmid) 
+
+The goal of Got_Plasmid is to retreive and visualize plasmid sequences from SRA and Next Generation Sequencing (NGS) data.
+<br />
+Repeats and low complexity sequences in mobile genetic elements, including plasmids and phages make their analysis very difficult when using NGS data. Here, we developed a new pipeline combining magiBlast, Circos and Eutils to identify and visualize whole or partial plasmid sequences present within SRA data. The output is in the form of self-explanatory tables or png images generated using Circos modules.
+<br />
+![Flow diagram](https://github.com/NCBI-Hackathons/Pathogenic_Pangenomes/blob/master/images/got_plasmid.png)
+
+<br />
+- Project page: https://github.com/NCBI-Hackathons/Got_Plasmid
+- Demo: https://ncbi-hackathons.github.io/Got_Plasmid/
+
+#### [](https://github.com/NCBI-Hackathons/Got_Plasmid)
+
+<br />
+
 #### [EndoVir](https://github.com/NCBI-Hackathons/EndoVir) 
 
 A implementation of [ViruSpy](https://github.com/NCBI-Hackathons/ViruSpy)  in modern Python (3.6) to facilitate on-the-fly adjustments of pipeline parameters and integration of different external tools.   
@@ -83,14 +99,4 @@ VBs will place links to their repos and other product deliverables here
 Example:  Celeste S:  https://www.youtube.com/watch?v=fC9rYghqUTo&feature=youtu.be
 ```
 
-#### [Got_Plasmid](https://github.com/NCBI-Hackathons/Got_Plasmid)
 
-The goal of Got_Plasmid is to retreive and visualize plasmid sequences from SRA and Next Generation Sequencing (NGS) data.
-<br />
-Repeats and low complexity sequences in mobile genetic elements, including plasmids and phages make their analysis very difficult when using NGS data. Here, we developed a new pipeline combining magiBlast, Circos and Eutils to identify and visualize whole or partial plasmid sequences present within SRA data. The output is in the form of self-explanatory tables or png images generated using Circos modules..
-<br />
-- Project page: https://github.com/NCBI-Hackathons/Got_Plasmid
-- Demo: https://ncbi-hackathons.github.io/Got_Plasmid/
-
-<br />
-![Flow diagram](images/got_plasmid.png)
