@@ -92,11 +92,7 @@ Repeats and low complexity sequences in mobile genetic elements, including plasm
 - Project page: https://github.com/NCBI-Hackathons/Got_Plasmid
 - Demo: https://ncbi-hackathons.github.io/Got_Plasmid/
 
-## Former Projects and Past Participants
-
-```
-VBs will place links to their repos and other product deliverables here 
-Example:  Celeste S:  https://www.youtube.com/watch?v=fC9rYghqUTo&feature=youtu.be
-```
 <br />
 ![Flow diagram](https://github.com/NCBI-Hackathons/Pathogenic_Pangenomes/blob/master/images/got_plasmid.png)
+
+## 
